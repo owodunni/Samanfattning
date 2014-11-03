@@ -22,10 +22,13 @@
 \number\year-\twodigit{\number\month}-\twodigit{\number\day}}
 
 %% Sidhuvud och sidfot
+\let\runtitle@title
+\let\runauthor@author
+\makeatother
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{\title}
-\rhead{Alexander Poole}
+\lhead{\runtitle}
+\rhead{\runauthor}
 \lfoot{alepo020@student.liu.se}
 \cfoot{{\ } \\ \thepage}
 
