@@ -42,19 +42,24 @@ a = \frac{d^2r}{dt^2} = \sum\limits_{i=1}^n \ddot{r}\hat{e}^r_i
   
 \begin{equation}
  \hat{t} = \frac{dr}{ds}
+ \label{t}
 \end{equation}
 
 $\abs{\hat{t}}=1$ vilket kommer visa sig väldigt smidigt senare.
 
 \begin{equation}
 \hat{n} = \frac{\frac{d\hat{t}}{ds}}{\abs{\frac{d\hat{t}}{ds}}} 
+\label{n}
 \end{equation}
 
  $\hat{n}*\hat{y} = 0 \text{ dvs } \hat{n} \text{ och } \hat{t} \text{ är ortogonala.}$
 $\hat{t}$ pekar alltid i rikningen som punkten rör sig och $\hat{n}$
 pekar alltid mot kröknings centrum i eventuell cirkelbana som punkten rör sig i.
+
+krökningen för en godtycklig kurva efter sträckan s:
 \begin{equation}
  k(s) = \abs{\frac{d\hat{t}}{ds}} 
+ \label{k}
 \end{equation}
 
 krökning för en cirkel blir:
@@ -101,10 +106,47 @@ v= \dot{s}\hat{t}=v\hat{t}
 
 OBS! \hat{t} kan defineras positiv i godtycklig riktning.
 
-Farten 
+Farten $\abs{v}=\abs{\dot{s}}$ detta då \abs{\hat{t}=1}
+
+\begin{equation}
+a = \dot{v} = \ddot{s}\hat{t} +  \dot{s}\dot{\hat{t}} 
+  = \ddot{s}\hat{t} +  \dot{s}\frac{d\hat{t}}{ds}\frac{ds}{dt}
+\end{equation}
+
+Detta tillsamans med ekv \ref{n} och ekv \ref{k} ger:
+
+\begin{equation}
+a = \ddot{s}\hat{t}+\frac{\dot{s}^2}{\rho}\hat{n}
+\end{equation}
+
+Om kurvan är en affin funktion blir krökningsradien oändligt stor
+
+\begin{equation}
+a = \ddot{s}\hat{t}
+\end{equation}
 
 
+\subsubsection{Cirkelrörelse}
 
+För punkter som rör sig längs en cirkulär bana med radien $R$ och läget $\Theta$ 
+gäller följande rörelse funktioner:
+
+\begin{equation}
+v = R\dot{\Theta}\hat{t}
+\end{equation}
+
+\begin{equation}
+a = R\ddot{\Theta}\hat{t} + R\dot{\Theta}^2\hat{n}
+\end{equation}
+
+\subsubsection{Varigons sats}
+
+Vill man uttrycka sambandet mellan hastighet och acceleration utan att blanda in tid så kan 
+sträcka eller hastighers förändring annvändas istället. Detta ger varigons sats:
+
+\begin{equation}
+\int a_t ds = \int vdv
+\end{equation}
 
 \subsection{ordlista}
 
@@ -118,7 +160,7 @@ Farten
          en punkt med en cirkel med samma krökning i punkten som kurvan.
          Så har man taggit fram den oskulerande cirkeln till punkten.
 
-  \item 
+  \item Affine funktion - en linjär funktion adderad med en konstant
 
 \end{itemize}
 
