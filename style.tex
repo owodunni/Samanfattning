@@ -22,8 +22,10 @@
 \number\year-\twodigit{\number\month}-\twodigit{\number\day}}
 
 %% Sidhuvud och sidfot
-\let\runtitle\@title
+\makeatletter
 \let\runauthor\@author
+\let\runtitle\@title
+\makeatother
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lhead{\runtitle}
