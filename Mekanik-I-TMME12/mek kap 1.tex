@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 
 \title{Mekanik I, kapitel 1, Fö 1-2}
-\author{A.O Poole}
+\author{Alexander O Poole}
 \input{../style}
 
 %%Dokumentets början
@@ -175,6 +175,28 @@ Varignons sats:
 
 \begin{equation}
 \ddot{y}dy = \dot{y}d\dot{y}
+\end{equation}
+
+\subsection{Plan kinematik i polära koordinater}
+I polära koordinater annvänds basvektorerna 
+$\hat{\theta}$ och $\hat{r}$ för att bestämma en punkts läge. 
+$r$ är längden av lägesvekron $\hat{r}$ och $\theta$ är vinkeln 
+ellan en fixt linje i referensramen och lägesvektorn $\bar{r}$. 
+$\hat{\theta} \times \hat{\r}= 0$ dvs $\hat{\theta}$  är 
+ortogonal mot $\hat{\r}$ och riktad på ett sådant sätt att
+$\hat{\theta}$ pekar mot växande värden på $\theta$.
+Detta ger oss följande rörelse ekvationer:
+
+\begin{equation}
+\bar{r}=r\hat{r}
+\end{equation}
+
+\begin{equation}
+v = \dot{r}\hat{r} + r\dot{\hat{r}}
+\end{equation}
+
+\begin{equation}
+a = (\ddot{r}-r\dot{\theta}^2)\hat{r}+(r\ddot{\theta}+2\dot{r}\dot{\theta})\hat{\theta}
 \end{equation}
 
 \subsection{ordlista}
