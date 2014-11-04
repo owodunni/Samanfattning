@@ -56,6 +56,7 @@ Vi delar gärna upp signaler i två delar t<0  och t>=0 x(t) då t<0 är en anti
  * Linjäritet => homogent och additivitet
  
 * Testa linjäritet
+ * H{x(t)}=tx(t) 
  * y(t)=tx(t-T)
  * xi(t) => yi(t)'
  * x(t) = sum(ci xi(t))
@@ -64,7 +65,14 @@ Vi delar gärna upp signaler i två delar t<0  och t>=0 x(t) då t<0 är en anti
  * y(t) = sum(di yi(t))
  * LINJÄRT!
  
-TEST) - visa att y(t) = 5x(t) + 3 inte är linjärt
- *
+TEST - Visa att y(t) = 5x(t) + 3 inte är linjärt
+
+* Tidsinvarians - systemets parametrar ändras inte med tiden! Ex - Bilens fjäder ändras inte med tiden.
+ * x(t) ger y(t) => x(t-T) ger y(t-T) dvs om jag väntar 5 sek med att starta systemet så beter det sig lika.
+ 
+* Undersöka tidsinvarians
+* H{x(t)}=y(t)=x(2-t) tidsivariant? (1)
+ * ẍ(t)=x(t-T) (2)
+ * ÿ(t)=/(1)/=ẍ(2-t)=/(2)/=x((2-t)-T)=x(2-(t+T))=/(1)/=y(t+T)!=y(t-T) => TIDSIVARIANT SYSTEM!
 
 
