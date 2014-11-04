@@ -36,5 +36,35 @@ Vi delar gärna upp signaler i två delar t<0  och t>=0 x(t) då t<0 är en anti
 * Enhetssteget u(t) - heavyside, unit step function u(t) = 0 då, t<0 u(t)=1 då t>=o
  * Annvänds för att definera och forma signaler till olika tids intervall.
  * Annvänds för att studera en systems stegsvar, bra vid linjära system.
- * 
+* Diracimpulsen δ(t) - δ(t)=0 ,t!=0, med area 1
+ * Egenskaper g(t)δ(t-T)=g(T)δ(t-T)
+ * Konstant eller funktion framför en dirac kallas för diracens vikt
+ * Integralen över hela talplanet av g(T)δ(t-T) = g(T) då integralen av dirac blir 1 och g(T) = 1.
+ * Distrubutioner definieras genom deras verkan på snälla funktioner
+ * Integrear vi över diracen får man u(t) dvs enhetssteget
+* Exponentsialfunktionen e^st där s = a+jb
+ * Se TATA45..
+ * Väldigt skysta tillsamans med linjära transformer
+*Stationär signal - periodiska signaler, cosinus, sinus, konstanter
+
+===
+##Systemegenskaper
+
+* Linjäritet - låt signalerna xi(t) alla ha utsignalerna yi(t) och betrakta x(t)=sum(ci xi(t)) så kan utsignalen skrivas som y(t)=sum(di yi(t)) annars är det icke linjärt. 
+ * Vi kan bygga en utsignal från linjärkombinatoner av insignalen. 
+ * H{x(t)}=sum(H{ci xi(t)})
+ * Linjäritet => homogent och additivitet
+ 
+* Testa linjäritet
+ * y(t)=tx(t-T)
+ * xi(t) => yi(t)'
+ * x(t) = sum(ci xi(t))
+ * y(t) = tsum(ci xi(t))
+ * ci(t xi(t)) = yi(t)
+ * y(t) = sum(di yi(t))
+ * LINJÄRT!
+ 
+TEST) - visa att y(t) = 5x(t) + 3 inte är linjärt
+ *
+
 
