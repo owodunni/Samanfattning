@@ -16,5 +16,7 @@
 
 ## System funktioner
 
-För att bestämma förstärkningen som en system funktion ger i en punkt (P) kan man annvända sig av följande, |H(S)|<sub>s=p</sub>=b<sub>0</sub>(produkten av avståndet av nollställen till p)/(produkten av avståndet av poler till p)
+* För att bestämma förstärkningen som en system funktion ger i en punkt (P) kan man annvända sig av följande,
+ * |H(S)|<sub>s=p</sub>=b<sub>0</sub>(produkten av avståndet av nollställen till p)/(produkten av avståndet av poler till p)
+*  
 
