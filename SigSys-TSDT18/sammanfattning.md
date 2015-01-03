@@ -14,3 +14,7 @@
 
 * Då en trignometrisk funktion x(t) = cos(Wt) faltas med ett sysem h(t) så blir y(t)=|h(2j)|cos(wt+arg(h(j2))
 
+## System funktioner
+
+För att bestämma förstärkningen som en system funktion ger i en punkt (P) kan man annvända sig av följande, |H(S)|<sub>s=p</sub>=b<sub>0</sub>(produkten av avståndet av nollställen till p)/(produkten av avståndet av poler till p)
+
