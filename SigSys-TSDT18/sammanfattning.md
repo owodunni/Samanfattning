@@ -21,3 +21,18 @@
 * Alla riktiga system funktioner har komplex konjugerade poler om polerna är skiljda från realaxeln.
 * 
 
+## Sampling
+
+* B - bandbrädd
+* f<sub>s</sub> - samplingfrekvens - f<sub>s</sub>=2B
+* T - Avstånd mellan sampels i tid
+* T<sub>0</sub> - Avståndet i tid innan den samplade signalen upprepar sig själv
+* N<sub>0</sub> - Antal samples per period - N<sub>0</sub>=T<sub>0</sub>
+* 
+<<x/2>>
+* 
+
+* Olika samplings metoder
+ * 
+ 
+
