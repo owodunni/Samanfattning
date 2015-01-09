@@ -4,7 +4,21 @@
 * Externt stabilt - Utifrån är systemet stabilt sett
   * Imaginär axeln måste ligga i konvergensområdet. Därför kan kausala och icke kausala system ha poler i olika halvplan, utan att systemet blir externt instabilt.
 * 
+* Testa linjäritet
+ * H{x(t)}=tx(t) 
+ * y(t)=tx(t-T)
+ * xi(t) => yi(t)'
+ * x(t) = sum(ci xi(t))
+ * y(t) = tsum(ci xi(t))
+ * ci(t xi(t)) = yi(t)
+ * y(t) = sum(di yi(t))
+ * LINJÄRT!
+ 
 
+* Undersöka tidsinvarians
+ * H{x(t)}=y(t)=x(2-t) tidsivariant? (1)
+ * ẍ(t)=x(t-T) (2)
+ * ÿ(t)=/(1)/=ẍ(2-t)=/(2)/=x((2-t)-T)=x(2-(t+T))=/(1)/=y(t+T)!=y(t-T) => TIDSIVARIANT SYSTEM!
 
 
 
